@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>писька бобра</title>
+    <link rel="stylesheet" href="style.css">
+    import { neon } from '@netlify/neon';
+const sql = neon(); // automatically uses env NETLIFY_DATABASE_URL
+const [post] = await sql`SELECT * FROM posts WHERE id = ${postId}`;
+</head>
+<body>
+    <div>
+    <h1>Полина чеполина дерётся с бр бр патапимом!!!</h1>
+    <P>смотреть новости ещё:</P>
+    <a href="kaka.html">Полина какашка/</a>
+    <a href="mango.html">mango/</a>
+    <a href="67.html">инштейн</a>
+    </div>
+
+</body>
+</html>
